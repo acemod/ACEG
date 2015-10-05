@@ -52,6 +52,6 @@
         } count ["uniform", "vest", "backpack"];A = _loadout///////////////////////////
     };
     false
-} count configProperties [missionConfigFile >> "ACE_Loadouts"];
+} count configProperties [missionConfigFile >> "ACEG_Loadouts"];
 
 nil

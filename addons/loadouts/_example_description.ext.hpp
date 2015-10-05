@@ -1,7 +1,7 @@
 
 // standard loadout of NATO rifleman
 
-class ACE_Loadouts {
+class ACEG_Loadouts {
     class Soldier1 {
         headgear = "H_HelmetB";
         //goggles = "";

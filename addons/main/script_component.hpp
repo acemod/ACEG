@@ -1,5 +1,5 @@
 #define COMPONENT main
-#include "\z\ACEG\addons\main\script_mod.hpp"
+#include "\z\aceg\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 
@@ -11,4 +11,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_CORE
 #endif
 
-#include "\z\ACEG\addons\main\script_macros.hpp"
+#include "\z\aceg\addons\main\script_macros.hpp"

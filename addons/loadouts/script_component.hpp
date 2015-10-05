@@ -1,8 +1,5 @@
 #define COMPONENT loadouts
-#include "\z\ace\addons\main\script_mod.hpp"
-
-//#undef PREFIX
-//#define PREFIX aceg
+#include "\z\aceg\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_LOADOUTS
     #define DEBUG_MODE_FULL
@@ -12,7 +9,7 @@
     #define DEBUG_SETTINGS DEBUG_ENABLED_LOADOUTS
 #endif
 
-#include "\z\ace\addons\main\script_macros.hpp"
+#include "\z\aceg\addons\main\script_macros.hpp"
 
 #define ISRIFLE(item) getNumber (configFile >> "CfgWeapons" >> item >> "type") == 1
 #define ISLAUNCHER(item) getNumber (configFile >> "CfgWeapons" >> item >> "type") == 4

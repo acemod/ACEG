@@ -15,4 +15,6 @@ PREP(getFirstMagazines);
 PREP(handleInitLocal);
 PREP(parseMissionConfig);
 
+call FUNC(parseMissionConfig);
+
 ADDON = true;
