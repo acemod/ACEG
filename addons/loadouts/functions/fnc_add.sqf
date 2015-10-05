@@ -28,20 +28,7 @@ call {
     };
     if (_slot in NAMES_WEAPON) exitWith {
         local _type = getNumber (configFile >> "CfgWeapons" >> _item >> "type");
-
-        if (_type == 1) exitWith {
-            _loadout set [INDEX_RIFLE, _item];
-        };
-        if (_type == 4) exitWith {
-            _loadout set [INDEX_LAUNCHER, _item];
-        };
-        if (_type == 2) exitWith {
-            _loadout set [INDEX_HANDGUN, _item];
-        };
-        if (_type == 4096) exitWith {
-            _loadout set [INDEX_BINOCULAR, _item];
-        };
-        _result = false;
+        _result = [_loadout, _item, true, true] call FUNC(addWeapon);
     };
     if (_slot in NAMES_RIFLE) exitWith {
         if (ISRIFLE(_item)) exitWith {

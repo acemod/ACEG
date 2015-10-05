@@ -9,6 +9,9 @@
 // Default versioning level
 #define DEFAULT_VERSIONING_LEVEL 2
 
+#define GVAR(var) TRIPLES(PREFIX,COMPONENT,var)
+#define QGVAR(var) QUOTE(GVAR(var))
+
 #define EGVAR(module,var) TRIPLES(PREFIX,module,var)
 #define QEGVAR(module,var) QUOTE(EGVAR(module,var))
 

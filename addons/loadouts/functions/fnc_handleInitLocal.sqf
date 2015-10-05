@@ -14,6 +14,8 @@
 
 params ["_unit"];
 
-private ["_type"];
+local _loadout = missionNamespace getVariable format [QGVAR(loadout_%1), _unit getVariable ["ACEG_customLoadout", typeOf _unit]];
 
-_type = typeOf _unit;
+if (isNil "_loadout") exitWith {};
+
+[_unit, _loadout, true, true] call ace_common_fnc_setAllGear;
