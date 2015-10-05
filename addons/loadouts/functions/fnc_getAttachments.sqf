@@ -1,4 +1,15 @@
-// by commy2
+/*
+ * Author: commy2
+ * Return all attachments of a preequipped weapon class.
+ *
+ * Arguments:
+ * 0: weapon <STRING>
+ *
+ * Return Value:
+ * attachments <ARRAY>
+ *
+ * Public: No
+ */
 #include "script_component.hpp"
 
 params ["_weapon"];

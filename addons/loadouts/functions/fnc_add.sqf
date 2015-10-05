@@ -1,4 +1,17 @@
-// by commy2
+/*
+ * Author: commy2
+ * Adds any kind of item, weapon etc. to loadout.
+ *
+ * Arguments:
+ * 0: loadout <ARRAY>
+ * 1: Slot ["headgear", "goggles", "uniform", "vest", "backpack", "weapon", "items", "nvgoggles", "binocular"] <STRING>
+ * 2: item classname [can be array in case of "items"] <STRING, ARRAY>
+ *
+ * Return Value:
+ * Successful? <BOOL>
+ *
+ * Public: Yes
+ */
 #include "script_component.hpp"
 
 params ["_loadout", "_slot", "_item"];

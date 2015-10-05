@@ -1,4 +1,15 @@
-// by commy2
+/*
+ * Author: commy2
+ * Parser mission config on mission start.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ *
+ * Public: No
+ */
 #include "script_component.hpp"
 
 {
@@ -51,7 +62,7 @@
         false
     } count ["uniform", "vest", "backpack"];
 
-    missionNamespace setVariable [format [QGVAR(loadout_%1), configName _x], _loadout];
+    [configName _x, _loadout] call FUNC(assign);
     false
 } count configProperties [missionConfigFile >> "ACEG_Loadouts"];
 

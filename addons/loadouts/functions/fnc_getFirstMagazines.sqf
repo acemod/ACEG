@@ -1,4 +1,15 @@
-// by commy2
+/*
+ * Author: commy2
+ * Find the most basic magazines for all muzzles of given weapon.
+ *
+ * Arguments:
+ * 0: weapon <STRING>
+ *
+ * Return Value:
+ * magazines <ARRAY>
+ *
+ * Public: No
+ */
 #include "script_component.hpp"
 
 params ["_weapon"];

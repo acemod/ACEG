@@ -1,4 +1,17 @@
-// by commy2
+/*
+ * Author: commy2
+ * Adds items to uniform, vest or backpack in a loadout.
+ *
+ * Arguments:
+ * 0: loadout <ARRAY>
+ * 1: Slot ["uniform", "vest", "backpack"] <STRING>
+ * 2: item classnames <ARRAY>
+ *
+ * Return Value:
+ * Successful? <BOOL>
+ *
+ * Public: Yes
+ */
 #include "script_component.hpp"
 
 params ["_loadout", "_slot", "_items"];

@@ -1,4 +1,19 @@
-// by commy2
+/*
+ * Author: commy2
+ * Converts a shorter version of array to long version. See example.
+ *
+ * Arguments:
+ * array <ARRAY>
+ *
+ * Return Value:
+ * long array without numbers <ARRAY>
+ *
+ * Example:
+ * ["potato","banana",3,"bugs",0] call aceg_loadouts_fnc_convertArray
+ * -> ["potato","banana","banana","banana"]
+ *
+ * Public: Yes
+ */
 #include "script_component.hpp"
 
 local _result = [];

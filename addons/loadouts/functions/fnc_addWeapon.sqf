@@ -1,4 +1,18 @@
-// by commy2
+/*
+ * Author: commy2
+ * Adds a weapon to a loadout.
+ *
+ * Arguments:
+ * 0: loadout <ARRAY>
+ * 1: weapon <STRING>
+ * 2: attched items [array of attachments, false: no attachments, true: default attachments of class] (default: true) <ARRAY, BOOL>
+ * 3: loaded magazines [array of magazines, false: weapon not loaded, true: weapon loaded with basic magazine] (default: true) <ARRAY, BOOL>
+ *
+ * Return Value:
+ * Successful? <BOOL>
+ *
+ * Public: Yes
+ */
 #include "script_component.hpp"
 
 params [
