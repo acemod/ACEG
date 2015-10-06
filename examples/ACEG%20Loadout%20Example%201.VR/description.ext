@@ -1,0 +1,16 @@
+
+// Loadouts
+#include "Loadout_Units.hpp"
+
+author = "commy2";
+
+// Respawn
+respawn = 3; 
+respawnDelay = 10;
+respawnDialog = 0;
+respawnVehicle = 3;
+respawnVehicleDelay = 10;
+respawnButton = 1;
+
+// Debug console
+enableDebugConsole = 1;

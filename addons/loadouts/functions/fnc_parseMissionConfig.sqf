@@ -43,7 +43,7 @@
                 _magazines = true;
 
                 if (isArray (_itemConfig >> "magazines")) then {
-                    _items = getArray (_itemConfig >> "magazines");
+                    _magazines = getArray (_itemConfig >> "magazines");
                 };
 
                 [_loadout, _weapon, _items, _magazines] call FUNC(addWeapon);
